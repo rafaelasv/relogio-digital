@@ -1,4 +1,110 @@
-html {
-  height: 100%;
+/* reset de margens e padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, rgba(135, 51, 230, 0.8), rgba(49, 28, 131, 0.8), rgba(24, 105, 172, 0.8), rgba(133, 39, 205, 0.8));
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* organiza forma vertical */
+  height: 100vh;
+  padding-bottom: 100px; /* espaço para o footer */
+}
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centraliza o conteúdo */
+  align-items: center; /* centraliza o conteúdo horizontalmente */
+  background: rgba(255, 255, 255, 0.4); /* cor branca com leve transparência, 40% */
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  text-align: center;
+  transition: all 0.3s ease;
+  margin-bottom: 50px;
+  width: 700px; 
+  height: 400px;
+  height: auto;
+  position: fixed; /*  relógio fixo */
+  top: 50%; /* relógio no centro da tela */
+  left: 50%; /* relógio no centro da tela */
+  transform: translate(-50%, -50%); /* ajusta para centralizar exato */
+}
+
+.clock {
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.clock span {
+  font-size: 60px;
+  width: 60px;
+  display: inline-block;
+  text-align: center;
+}
+
+.clock span.colon {
+  margin: 0 5px; 
+}
+
+.suffix {
+  font-size: 24px; 
+  color: white; 
+  margin-left: 20px;
+}
+
+.date {
+  font-size: 14px;
+  color: white;
+  background: transparent;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+.options {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+select {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 2px;
+  font-size: 12px;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  transition: all 0.3s ease;
+}
+
+label {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer {
   width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 10px;
+  background: transparent;
 }
