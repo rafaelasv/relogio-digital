@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+    .clock {
+      font-size: 50px; /* Reduz o tamanho da fonte */
+    }
+  
+    .clock span {
+      font-size: 60px; /* Ajusta os números do relógio */
+      width: 80px; /* Diminui a largura */
+    }
+  
+    .clock-container {
+      width: 90%; /* Usa uma porcentagem da tela para evitar cortes */
+      padding: 20px; /* Ajusta o espaçamento */
+    }
+  
+    footer {
+      font-size: 12px; /* Ajusta o tamanho do texto no footer */
+      padding: 5px;
+    }
+  }
