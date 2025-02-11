@@ -162,3 +162,18 @@ footer {
       animation: octocat-wave 560ms ease-in-out;
   }
 }
+
+.made-by {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.made-by:hover {
+  opacity: 1;
+}
