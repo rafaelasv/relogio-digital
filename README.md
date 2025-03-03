@@ -25,13 +25,13 @@ Adicione imagens do projeto aqui!
 - Exibição da hora em tempo real.
 - Opção para alterar entre os formatos de 12h e 24h.
 - Ajuste de fuso horário.
-- Design responsivo para telas pequenas.
 
 ## 🛠 Melhorias Futuras
 - Design responsivo para telas pequenas.
 - Adicionar opção de temas (claro/escuro).
 - Permitir personalização de fonte e cores.
 - Implementar um modo "relógio analógico".
+- Design responsivo para telas pequenas.
 
 
 #
