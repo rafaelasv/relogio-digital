@@ -21,6 +21,8 @@ Adicione imagens do projeto aqui!
    ```
 3. Abra o arquivo `index.html` no navegador.
 
+Você pode ver o projeto ao vivo [aqui](https://relogio-digital-green.vercel.app/)
+
 ## 🌍 Funcionalidades
 - Exibição da hora em tempo real.
 - Opção para alterar entre os formatos de 12h e 24h.
@@ -32,7 +34,8 @@ Adicione imagens do projeto aqui!
 - Permitir personalização de fonte e cores.
 - Implementar um modo "relógio analógico".
 - Design responsivo para telas pequenas.
-
+- Implementar notificações de hora (por exemplo, um alarme simples).
+- Permitir que o usuário salve um fuso horário favorito.
 
 #
 
